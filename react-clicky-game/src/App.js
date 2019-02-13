@@ -15,7 +15,7 @@ state ={
 };
 
 gameOver = () => {
-  if(this.state.score> this.state.highscore){
+  if(this.state.score > this.state.highscore){
     this.setState({highscore:this.state.score}, function(){
       console.log(this.state.highscore);
     });
